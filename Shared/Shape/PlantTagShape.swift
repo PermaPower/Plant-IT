@@ -37,5 +37,6 @@ struct PlantTagShape: Shape {
 struct PlantTagShape_Previews: PreviewProvider {
     static var previews: some View {
         PlantTagShape()
+        
     }
 }

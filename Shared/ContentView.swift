@@ -8,45 +8,51 @@
 import SwiftUI
 
 struct ContentView: View {
+
+var body: some View {
     
-    var body: some View {
+    GeometryReader { geometry in
+        Color.green.edgesIgnoringSafeArea(.all)
+
+            ScrollView()
+            {
+                ZStack{
         
-        GeometryReader { geometry in
-            Color.green.edgesIgnoringSafeArea(.all)
-            
+                    // Plant Tag Shape
+                    PlantTagShape()
+                        .shadow(radius: 5 )
+                        .padding()
+                        .foregroundColor(Color.white)
 
-                ScrollView()
-                {
+                    
+                    // Border
+                    PlantTagShape()
+                        .stroke(Color.green, style: StrokeStyle(lineWidth: 3.0, lineCap: .round, lineJoin: .round))
+                        .padding()
+                    
+                    PlantFormView()
+                        .padding(EdgeInsets(top: 100, leading: 30, bottom: 50, trailing: 30))
 
-                    ZStack{
-            
-                        // Plant Tag Shape
-                        PlantTagShape()
-                            .shadow(radius: 5 )
-                            .padding()
-                            .foregroundColor(Color.white)
-                        
-                        // Border
-                        PlantTagShape()
-                            .stroke(Color.green, style: StrokeStyle(lineWidth: 3.0, lineCap: .round, lineJoin: .round))
-                            .padding()
-                        
-                        PlantFormView()
-                            .padding(EdgeInsets(top: 100, leading: 30, bottom: 50, trailing: 30))
-   
-                    }
-                    .background(Color.green)
-                    .frame(width: geometry.size.width, height: 1150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .navigationBarTitle("Plant Test")
                 }
-            
+                .background(Color.green)
+                .frame(width: geometry.size.width, height: 1150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .navigationBarTitle("Plant Test")
             }
+        
         }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-        
-    }
+
+static var previews: some View {
+
+       Group {
+         ContentView()
+            .environment(\.colorScheme, .light)
+
+         ContentView()
+            .environment(\.colorScheme, .dark)
+      }
+   }
 }

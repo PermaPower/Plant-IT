@@ -19,6 +19,18 @@
 		5278E87B25A80D4F00ABE3FE /* PlantFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E87925A80D4F00ABE3FE /* PlantFormView.swift */; };
 		5278E88125A825DB00ABE3FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E88025A825DB00ABE3FE /* Home.swift */; };
 		5278E88225A825DB00ABE3FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E88025A825DB00ABE3FE /* Home.swift */; };
+		5278E89825A928C200ABE3FE /* MonthGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E89725A928C200ABE3FE /* MonthGrid.swift */; };
+		5278E89925A928C200ABE3FE /* MonthGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E89725A928C200ABE3FE /* MonthGrid.swift */; };
+		5278E8A725A9315700ABE3FE /* PickerGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8A625A9315700ABE3FE /* PickerGrid.swift */; };
+		5278E8A825A9315700ABE3FE /* PickerGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8A625A9315700ABE3FE /* PickerGrid.swift */; };
+		5278E8AC25A9326100ABE3FE /* ToggleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8AB25A9326100ABE3FE /* ToggleGrid.swift */; };
+		5278E8AD25A9326100ABE3FE /* ToggleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8AB25A9326100ABE3FE /* ToggleGrid.swift */; };
+		5278E8B125A9331A00ABE3FE /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8B025A9331A00ABE3FE /* DummyData.swift */; };
+		5278E8B225A9331A00ABE3FE /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8B025A9331A00ABE3FE /* DummyData.swift */; };
+		5278E8B625A9808400ABE3FE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5278E8B525A9808400ABE3FE /* Colors.xcassets */; };
+		5278E8B725A9808400ABE3FE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5278E8B525A9808400ABE3FE /* Colors.xcassets */; };
+		5278E8BB25A9823700ABE3FE /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8BA25A9823700ABE3FE /* ColorManager.swift */; };
+		5278E8BC25A9823700ABE3FE /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278E8BA25A9823700ABE3FE /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +45,12 @@
 		5249343B25A6DA35005D0FA0 /* PlantTagShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTagShape.swift; sourceTree = "<group>"; };
 		5278E87925A80D4F00ABE3FE /* PlantFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantFormView.swift; sourceTree = "<group>"; };
 		5278E88025A825DB00ABE3FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5278E89725A928C200ABE3FE /* MonthGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthGrid.swift; sourceTree = "<group>"; };
+		5278E8A625A9315700ABE3FE /* PickerGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerGrid.swift; sourceTree = "<group>"; };
+		5278E8AB25A9326100ABE3FE /* ToggleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleGrid.swift; sourceTree = "<group>"; };
+		5278E8B025A9331A00ABE3FE /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		5278E8B525A9808400ABE3FE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5278E8BA25A9823700ABE3FE /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		5249341225A6D9C7005D0FA0 = {
 			isa = PBXGroup;
 			children = (
+				5278E8C825A9864A00ABE3FE /* Colors */,
 				5249341725A6D9C7005D0FA0 /* Shared */,
 				5249342125A6D9C9005D0FA0 /* iOS */,
 				5249342825A6D9C9005D0FA0 /* macOS */,
@@ -69,9 +88,9 @@
 				5249341825A6D9C7005D0FA0 /* Plant_itApp.swift */,
 				5278E88025A825DB00ABE3FE /* Home.swift */,
 				5249341925A6D9C7005D0FA0 /* ContentView.swift */,
-				5249343B25A6DA35005D0FA0 /* PlantTagShape.swift */,
-				5278E87925A80D4F00ABE3FE /* PlantFormView.swift */,
 				5249341A25A6D9C9005D0FA0 /* Assets.xcassets */,
+				5278E8A325A9307A00ABE3FE /* Shape */,
+				5278E8A025A9304E00ABE3FE /* Form */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -100,6 +119,35 @@
 				5249342A25A6D9C9005D0FA0 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		5278E8A025A9304E00ABE3FE /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5278E87925A80D4F00ABE3FE /* PlantFormView.swift */,
+				5278E8AB25A9326100ABE3FE /* ToggleGrid.swift */,
+				5278E89725A928C200ABE3FE /* MonthGrid.swift */,
+				5278E8A625A9315700ABE3FE /* PickerGrid.swift */,
+				5278E8B025A9331A00ABE3FE /* DummyData.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		5278E8A325A9307A00ABE3FE /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				5249343B25A6DA35005D0FA0 /* PlantTagShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		5278E8C825A9864A00ABE3FE /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5278E8B525A9808400ABE3FE /* Colors.xcassets */,
+				5278E8BA25A9823700ABE3FE /* ColorManager.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5249342F25A6D9C9005D0FA0 /* Assets.xcassets in Resources */,
+				5278E8B625A9808400ABE3FE /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5249343025A6D9C9005D0FA0 /* Assets.xcassets in Resources */,
+				5278E8B725A9808400ABE3FE /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5278E87A25A80D4F00ABE3FE /* PlantFormView.swift in Sources */,
+				5278E8BB25A9823700ABE3FE /* ColorManager.swift in Sources */,
 				5249342D25A6D9C9005D0FA0 /* ContentView.swift in Sources */,
 				5278E88125A825DB00ABE3FE /* Home.swift in Sources */,
+				5278E8B125A9331A00ABE3FE /* DummyData.swift in Sources */,
+				5278E8AC25A9326100ABE3FE /* ToggleGrid.swift in Sources */,
 				5249343C25A6DA35005D0FA0 /* PlantTagShape.swift in Sources */,
+				5278E89825A928C200ABE3FE /* MonthGrid.swift in Sources */,
+				5278E8A725A9315700ABE3FE /* PickerGrid.swift in Sources */,
 				5249342B25A6D9C9005D0FA0 /* Plant_itApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,9 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5278E87B25A80D4F00ABE3FE /* PlantFormView.swift in Sources */,
+				5278E8BC25A9823700ABE3FE /* ColorManager.swift in Sources */,
 				5249342E25A6D9C9005D0FA0 /* ContentView.swift in Sources */,
 				5278E88225A825DB00ABE3FE /* Home.swift in Sources */,
+				5278E8B225A9331A00ABE3FE /* DummyData.swift in Sources */,
+				5278E8AD25A9326100ABE3FE /* ToggleGrid.swift in Sources */,
 				5249343D25A6DA35005D0FA0 /* PlantTagShape.swift in Sources */,
+				5278E89925A928C200ABE3FE /* MonthGrid.swift in Sources */,
+				5278E8A825A9315700ABE3FE /* PickerGrid.swift in Sources */,
 				5249342C25A6D9C9005D0FA0 /* Plant_itApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
